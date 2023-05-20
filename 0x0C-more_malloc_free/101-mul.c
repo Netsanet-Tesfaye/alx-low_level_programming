@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define ERR_MSG "error"
+#define ERR_MSG "Error"
 
 /**
  * is_digit - checks if a string contains a non-digit char
