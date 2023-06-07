@@ -1,11 +1,11 @@
 #include "lists.h"
 /**
  * free_listint_safe - Frees a linked list
- * @h: Pointers to the first node in the linked list
+ * @h: Pointer to the first node in the linked list
  *
- * Return: Number of elements in the greed list
+ * Return: Number of elements in the freed list
  */
-listint_t *find_listint_loop(listint_t *head)
+size_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
 	int diff;
